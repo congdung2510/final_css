@@ -1,0 +1,303 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #696969;
+} 
+
+a:hover {
+	color: #adad90;
+}
+
+p {
+	font-size: 18px;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+/*Menu*/
+.menu {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.menu img {
+	margin: 0 15px -27px;
+}
+
+.menu img:hover {
+	opacity: 0;
+}
+
+/*Slice*/
+.slice {
+	margin-top: 100px;
+	position: relative;
+}
+
+.slice .left {
+	width: 400px;
+	position: absolute;
+	left: 80px;
+	top: 225px;
+}
+
+.slice .left h2 {
+	font-size: 80px;
+	color: #23a5c39c;
+}
+
+.left p {
+	color: #f5f5f0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	padding: 15px 55px;
+	background-color: #758dba;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+
+}
+
+.btn:hover {
+	background-color: #464444;
+}
+
+.slice .right {
+	position: absolute;
+	bottom: 100px;
+	right: 90px;
+}
+
+.hidden {
+	background-color: rgba(0,0,0,0);	
+	color: #fff;
+	margin-right: 30px;
+	border: none;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.hidden:hover {
+	color: #464444;
+}
+
+/*Banner*/
+.banner {
+	margin-top: 20px;
+
+}
+
+#bannerLeft {
+	width: 680px;
+	height: 500px;
+	margin-right: 20px;
+	float: left;
+	background-image: url('../img/anh2.jpg');
+	position: relative;
+}
+
+#bannerRight {
+	width: 500px;
+	height: 700px;
+	float: left;
+	background-image: url('../img/anh3.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+.textL {
+	position: absolute;
+	margin-left: 38px;
+	right: 362px;
+	bottom: 75px;
+	font-size: 60px;
+	color: #0cda98;
+}
+
+.view1 {
+	position: absolute;
+	bottom: 50px;
+	right: 557px;
+	text-transform: uppercase;
+	color: #0cda98;
+}
+
+.textR {
+	position: absolute;
+	left: 362px;
+	bottom: 203px;
+	font-size: 42px;
+	color: #0cda98;
+}
+
+.view2 {
+	position: absolute;
+	bottom: 129px;
+	left: 365px;
+	text-transform: uppercase;
+	color: #0cda98;
+}
+
+/*Content*/
+#title{
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.sp, .ten, .gia, .mua{
+	width: 285px;
+	margin-left: 20px;
+	float: left;
+}
+.sp:first-child, .ten:first-child, .gia:first-child, .mua:first-child{
+	margin-left: 0;
+}
+.sp{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.sp img{
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+.sp img:hover{
+	-webkit-transform: scale(1.0);
+	   -moz-transform: scale(1.0);
+	    -ms-transform: scale(1.0);
+	     -o-transform: scale(1.0);
+	        transform: scale(1.0);
+}
+.ten p{
+	color: #464444;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.gia{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #818753;
+	margin-bottom: 20px;
+}
+.gia span{
+	font-size: 25px;
+}
+.mua{
+	text-align: center;
+}
+.layer4{
+	margin-bottom: 20px;
+}
+
+/* Banner 2 */
+#baner1{
+	width: 680px;
+	height: 350px;
+	margin-right: 20px;
+	float: left;
+	position: relative;
+	background-image: url('../img/banner1.jpg');
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+#baner2{
+	width: 500px;
+	height: 470px;
+	float: left;
+	background-image: url('../img/banner2.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 30px;
+}
+.textL2{
+	position: absolute;
+	left: 495px;
+	top: 89px;
+	font-size: 60px;
+	color: #464444;
+}
+.view3{
+	position: absolute;
+	bottom: 92px;
+	left: 495px;
+	text-transform: uppercase;
+}
+.textR2{
+	position: absolute;
+	left: 375px;
+	top: 14px;
+	font-size: 60px;
+	color: #464444;
+}
+.view4{
+	position: absolute;
+	top: 159px;
+	left: 384px;
+	text-transform: uppercase;
+}
+
+/* Footer */
+.about{
+	margin-top: 35px;
+	width: 350px;
+	float: left;
+}
+.about #trai{
+	width: 70px;
+	height: 38px;
+	margin-top: 15px;
+	margin-right: 20px;
+	float: left;
+}
+.about #phai{
+	margin-top: 25px;
+	font-size: 15px;
+	width: 245px;
+	color: #6C6666;
+	float: left;
+}
+.contact{
+	margin-top: 35px;
+	width: 300px;
+	float: left;
+}
+.contact p{
+	font-size: 16px;
+	margin-top: 10px;
+	color: #6C6666;
+}
+.contact span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.link{
+	width: 500px;
+	float: left;
+}
+.link p{
+	font-size: 16px;
+	margin-top: 45px;
+	color: #6C6666;
+}
